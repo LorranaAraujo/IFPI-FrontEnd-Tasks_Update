@@ -210,5 +210,5 @@ async function atualizarTarefa(id, tarefa) {
 
 function logout() {
   localStorage.removeItem('access_token');
-  window.location.href = 'https://neon-selkie-84915d.netlify.app/frontend/index.html';
+  window.location.href = 'https://neon-selkie-84915d.netlify.app/index.html';
 }
