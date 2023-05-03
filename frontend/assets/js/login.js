@@ -4,7 +4,7 @@ const passwordInput = document.querySelector('#password');
 
 function signIn(event) {
     event.preventDefault();
-    const API_URL = 'http://127.0.0.1:8000/auth/signin';
+    const API_URL = 'https://tarefasweb.onrender.com/auth/signin';
     const user = {
         usuario: usernameInput.value,
         senha: passwordInput.value
@@ -31,7 +31,7 @@ function signIn(event) {
         icon: 'success',
         confirmButtonText: 'OK',
         });
-        window.location.replace('http://127.0.0.1:5500/frontend/screen.html')
+        window.location.replace('https://neon-selkie-84915d.netlify.app/frontend/screen.html')
     })
     .catch(error => {
         console.error(error);
