@@ -51,7 +51,7 @@ function signUp(event) {
     
         setTimeout(() => {
             Swal.close();
-            window.location.replace('https://neon-selkie-84915d.netlify.app/frontend/index.html');
+            window.location.replace('https://neon-selkie-84915d.netlify.app/index.html');
         }, 2000);
     })    
     .catch((error) => {
