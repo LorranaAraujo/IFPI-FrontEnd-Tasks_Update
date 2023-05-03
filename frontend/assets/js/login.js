@@ -31,7 +31,7 @@ function signIn(event) {
         icon: 'success',
         confirmButtonText: 'OK',
         });
-        window.location.replace('https://neon-selkie-84915d.netlify.app/frontend/screen.html')
+        window.location.replace('https://neon-selkie-84915d.netlify.app/screen.html')
     })
     .catch(error => {
         console.error(error);
