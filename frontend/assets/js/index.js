@@ -1,4 +1,4 @@
-const API_URL = 'http://127.0.0.1:8000/tarefas'
+const API_URL = 'https://tarefasweb.onrender.com/tarefas'
 const token = `Bearer ${localStorage.getItem("access_token")}`
 
 
@@ -210,5 +210,5 @@ async function atualizarTarefa(id, tarefa) {
 
 function logout() {
   localStorage.removeItem('access_token');
-  window.location.href = 'http://127.0.0.1:5500/frontend/index.html';
+  window.location.href = 'https://neon-selkie-84915d.netlify.app/frontend/index.html';
 }
