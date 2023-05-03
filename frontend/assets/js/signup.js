@@ -18,7 +18,7 @@ function signUp(event) {
         return;
     }
 
-    const API_URL = 'http://127.0.0.1:8000/auth/signup';
+    const API_URL = 'https://tarefasweb.onrender.com/auth/signup';
     const user = {
         nome: nameInput.value,
         usuario: usernameInput.value,
@@ -51,7 +51,7 @@ function signUp(event) {
     
         setTimeout(() => {
             Swal.close();
-            window.location.replace('http://127.0.0.1:5500/frontend/index.html');
+            window.location.replace('https://neon-selkie-84915d.netlify.app/frontend/index.html');
         }, 2000);
     })    
     .catch((error) => {
